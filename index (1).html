@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMART-UI</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+   
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="yellow-circle-top-left"></div>
+    <div class="circle-yellow"></div>
+    <div class="circle-yellow second"></div>
+    <div class="circle-purple"></div>
+
+    <header>
+      <div class="logo">smart-ui</div>
+      <nav>
+        <a href="#hero" class="active">Home</a>
+        <a href="#team">Our team</a>
+        <a href="#works">Portfolio</a>
+      </nav>
+
+      <div class="language-social">
+        <div class="languages">
+          <a href="#" class="lang">UA</a> |
+          <a href="#" class="lang active">EN</a>
+        </div>
+        <div class="social-icons">
+          <a href="https://wa.me/your_number" target="_blank" title="WhatsApp">
+            <img src="./img/Union.svg" alt="WhatsApp" />
+          </a>
+          <a href="https://t.me/your_channel" target="_blank" title="Telegram">
+            <img src="./img/telergam.svg" alt="Telegram" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="main" id="hero">
+      <div class="container"> <div class="side-button">return message</div>
+      <div class="text-content">
+        <h1 class="Header">We are</h1>
+        <h1 class="Header">
+          <span>SMART-UI</span><span class="highlight-dot">.</span>
+        </h1>
+        <p>You deserve easy IT, to make it easy make it SMART 👋</p>
+        <div
+          style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap"
+        >
+          <button class="btn">Get Started</button>
+          <div class="logos">
+            <img src="./img/Group 162559.svg" alt="Clutch" />
+            <img src="./img/Group 162534.svg" alt="Upwork" />
+            <img src="./img/Group 162535.svg" alt="LinkedIn" />
+          </div>
+        </div>
+      </div>
+      <div class="illustration">
+        <img src="./img/illustration (1).svg" alt="Illustration" />
+      </div>
+      <div class="chat-btn" onclick="toggleChat()">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/724/724715.png"
+          alt="Chat icon"
+        />
+      </div>
+
+      <div class="chat-window" id="chatWindow">
+        <strong>Chat with us!</strong>
+        <p style="margin-top: 10px">How can we help you?</p>
+        <input
+          type="text"
+          placeholder="Type here..."
+          style="width: 100%; margin-top: 10px; padding: 0.5rem"
+        />
+      </div>
+      <div
+        class="scroll-to-explore"
+        onclick="window.scrollTo({ top: 1000, behavior: 'smooth' })"
+      >
+        <img
+          src="./img/scroll-horitontal 1.svg"
+          alt="Scroll Icon"
+          class="scroll-icon"
+        />
+        Scroll to explore
+      </div>
+      </div>
+      </div>
+     
+    </section>
+    <section class="what-we-do" id="services">
+      <div class="container">
+        <div class="left-column">
+          <h2>What We Do?</h2>
+          <p>
+            By implementing modern Internet technologies, we help our Clients to
+            achieve their goals and solve problems effectively, striving to do
+            it better than competitors do, and offering optimal effective
+            solutions taking into account the interests of each Client, with
+            sincere care and maximum possible attention.
+          </p>
+          <button class="ask-question">Ask a question</button>
+        </div>
+        <div class="center-divider">
+          <span class="divider-text left">01</span>
+          <span class="divider-text right">02</span>
+        </div>
+        <div class="center-divider-line"></div>
+        <div class="right-column">
+          <h3>We have already strong skills and we are not stopping:</h3>
+          <ul>
+            <li>
+              Programming Languages: HTML5, CSS3, PHP, JavaScript (AngularJS,
+              ReactJS, NodeJS, jQuery)
+            </li>
+            <li>CMS: Wordpress, Opencart, Drupal</li>
+            <li>Version Control: SVN, GIT, GitLab, GitHub, Bitbucket</li>
+            <li>SAAS: Amazon Web Services, Rackspace Cloud</li>
+            <li>API Integration</li>
+          </ul>
+          <a class="find-out-more" href="#portfolio">Find out more →</a>
+        </div>
+      </div>
+    </section>
+    <section class="Tech">
+      <div class="conteiner">
+        <div class="techno">
+          <span class="text-before">Technology</span>
+          <h1>Tools We Use</h1>
+          <p>Contact that lead developer and discuss technical points in detail</p>
+          <button class="Contact">Contact the lead developer</button>
+          <p>scroll to explore</p>
+          <div class="center-dividerr">
+            <span class="divider-text lefter">01</span>
+            <span class="divider-text righter">02</span>
+          </div>
+          <div class="center-divider-liner"></div>
+          <div class="rectangle">
+            <table border="1" cellpadding="10" cellspacing="10">
+              <tr>
+                <td>
+                  <img src="" alt="">
+                  <h3>Markup</h3>
+                  <p>HTML, CSS, SASS, Semantic, W3C Valid.</p>
+                </td>
+                <td>
+                  <img src="" alt="">
+                  <h3>UI-Frameworks</h3>
+                  <p>Bootstrap 3,4,5, Material-UI, Tailwind</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="arrows">
+            <button class="left">111111</button>
+            <button class="right">222222</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="conteiner">
+        <div class="text">
+          <h1>Strategy</h1>
+        </div>
+        <div class="1-6">
+          <h3>01</h3>
+          <h3>Strategy</h3>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <h3>02</h3>
+          <h3>Design</h3>
+          <p>Not just a picture, but a convenient and intuitive interface with unique and original UI.</p>
+          <h3>03</h3>
+          <h3>Develope</h3>
+          <p>HTML, CSS, LESS/SASS, Bootstrap. This is the frame of your site that we will do at the highest level. Vanilla JavaScript, Jquery, WordPress, Angular, React.js. We will make your web app interactive.</p>
+          <h3>04</h3>
+          <h3>Support</h3>
+          <p>When the website is done and live. We will support and improve new features on the website. </p>
+          <h3>05</h3>
+          <h3>QA</h3>
+          <p>During the QA phase, which is the process of custom software development, we handpick and combine industry best practices and methodologies to detect bugs in the context of the environment; no line of code leaves us untested.</p>
+          <h3>06</h3>
+          <h3>Launching</h3>
+          <p>The stage of detecting and correcting a bug in QA as well
+            uploading to the server and
+            domain connection.</p>
+        </div>
+      </div>
+    </section>
+    <section class="our-team">
+      <div class="conteiner">
+        <div class="text">
+          <h1>Meet Our Team</h1>
+          <p>Expert Team Member</p>
+          <div class="rectangle">
+            <table border="1" cellpadding="10" cellspacing="10">
+              <tr>
+                <td>
+                  <img src="" alt="">
+                  <h3>Aleksand Klipov</h3>
+                  <p>The Chief Operations Officer at SMART-UI IT Company</p>
+                  <button>ask a question</button>
+
+                </td>
+                <td>
+                  <img src="" alt="">
+                  <h3>Alexandr Kozlov</h3>
+                  <p>Executive Managing Director – Smart UI</p>
+                  <button>ask a question</button>
+                </td>
+                <td>
+                  <img src="" alt="">
+                  <h3>Alex Gashkov</h3>
+                  <p>Founder and CEO at SMART-UI IT Company</p>
+                  <button>ask a question</button>
+                </td>
+              </tr>
+            </table>
+            <button class="whole-team">The Whole Team</button>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="conteiner">
+        <div class="text">
+          <h1>Our Advantages</h1>
+          <p>We help to develop business, using complex modern effective it solutions, tools of web development and Internet marketing.
+          </p>
+          <div class="rectangle">
+            <table border="1" cellpadding="10" cellspacing="10">
+              <tr>
+                <td>
+                  <img src="" alt="">
+                  <h3>Individual Approach</h3>
+                  <p>After converting all requirements into product implementation, our software engineers work quickly but smartly, using the full potential</p>
+                </td>
+                <td>
+                  <img src="" alt="">
+                  <h3>Teamwork With Client</h3>
+                  <p>Teamwork is great opportunity to know more about you project from various specialists. You should ask necessary questions to our specialists, from Product Manager to Web-Developer.</p>
+                </td>
+                <td>
+                  <img src="" alt="">
+                  <h3>Your Business Profitable!</h3>
+                  <p>You should ask necessary questions to our specialists, from Product Manager to Web-Developer.</p>
+                </td>
+              </tr>
+            </table>
+            <button class="review">Review</button>
+        </div>
+      </div>
+    </section>
+    <section class="recent-works">
+      <h1>Recent Works</h1>
+          <p>We will help to develop your best project based on your idea.</p>
+      <div class="conteiner">
+        <div class="text">
+          <span>Showcase</span>
+          <button class="View-more">View more projects</button>
+          <div class="center-dividerr">
+            <span class="divider-text lefter">01</span>
+            <span class="divider-text righter">02</span>
+          </div>
+          <div class="center-divider-liner"></div>
+          <div class="rectangle">
+            <table border="1" cellpadding="10" cellspacing="10">
+              <tr>
+                <td>
+                  <img src="" alt="">
+                  <h3>THC</h3>
+                  <p>Creating a site from scratch on React, Gatsby, back-end on WordPress</p>
+                  <a href=""></a>
+                </td>
+                <td>
+                  <img src="" alt="">
+                  <h3>RoseWellness</h3>
+                  <p>Complete overhaul of an existing site and increased Pagespeed.</p>
+                  <a href=""></a>
+                </td>
+                <td>
+                  <img src="" alt="">
+                  <h3>Revr site</h3>
+                  <p>Site on Next.js and React</p>
+                  <a href=""></a>
+                </td>
+              </tr>
+            </table>
+        </div>
+      </div>
+    </section>
+    <section class="rewiws">
+      <h1>Clients Reviews.</h1>
+          <p>We help to develop business, using complex modern effective it solutions, tools of web development and Internet marketing.</p>
+      <div class="conteiner">
+        <div class="text">
+                    <div class="center-dividerr">
+            <span class="divider-text lefter">01</span>
+            <span class="divider-text righter">02</span>
+            <h4>Static HTML pages and email templates</h4>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">☆</span>
+              <span class="rating-value">4.8</span>
+            </div>
+            <p>"Working with Denys from SMART-UI it's straightforward. I provide the design - he provides the implementation. After a couple of iterations, the job was done. No unnecessary interactions or delays and communication is succinct and on the point. Overall I am happy with the experience and will be working with Denys and SMART-UI in the future."</p>
+            <p>review on Up Work</p>
+            <div class="center-dividerr">
+              <h4>Looking for an expert NextJs developer</h4>
+              <div class="rating">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="rating-value">5</span>
+              </div>
+              <p>"The team did a great job of completing the tasks with full satisfaction on time. We will work with them again."</p>
+              <p>review on Up Work</p>
+              <h4>What others are saying on Up Work</h4>
+              <button class="review on Up Work">
+                <a href="https://www.upwork.com/agencies/smartui/"></a>
+                <p>review on Up Work</p>
+              </button>
+        </div>
+      </div>
+    </section>
+    <section class="asked question">
+      <div class="conteiner">
+        <div class="text">
+          <h1>Frequently asked questions</h1>
+          <div class="accordion">
+        <div class="accordion-item">
+            <button class="accordion-button">Who did we work with?</button>
+            <div class="accordion-content">
+                <p>Most of our clients are large financial organizations and companies. You can view the list of clients who have given permission to publish works in the Recent Works block.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button">What services do we offer to clients?</button>
+            <div class="accordion-content">
+                <ul>
+                    <li>Website design and development;</li>
+                    <li>Website integration and maintenance;</li>
+                    <li>Customized e-commerce development;</li>
+                    <li>CMS development/integration.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button">How is the cost of the project formed?</button>
+            <div class="accordion-content">
+                <p>The cost of services is calculated very simply: the time spent by us is multiplied by the tariff. But we can assure you that they are at the market level.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button">Who owns the right to created solutions?</button>
+            <div class="accordion-content">
+                <p>As a rule, the exclusive rights to the software and the source code are transferred to the customer. Everything related to your project.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button">What technologies are used?</button>
+            <div class="accordion-content">
+                <p>We can solve any problem using any technology. These are not big words, they really are. At smart-ui, a team of employees with the highest set of knowledge.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button">How long does it take to develop a project?</button>
+            <div class="accordion-content">
+                <p>Velocity doubled by quality is what our Agile approach boils down to.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+        </div>
+      </div>
+    </section>
+    <section class="Touch">
+      <div class="conteiner">
+        <h1>Lets Get In Touch</h1>
+        <div class="text">
+          <div class="form-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="first-name">First name:</label>
+                    <input type="text" id="first-name" class="form-input" placeholder=" ">
+                    <div class="underline"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail address:</label>
+                    <input type="email" id="email" class="form-input" placeholder=" ">
+                    <div class="underline"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" class="form-input textarea" placeholder=" " rows="4"></textarea>
+                    <div class="underline"></div>
+                </div>
+                <button type="submit" class="submit-btn">sumbit</button>
+            </form>
+            <div class="logo-fotter">
+              <img src="/img/clah.jpg" alt="Clutch">
+              <img src="/img/up.jpg" alt="Upwork">
+              <img src="/img/in.jpg" alt="In">
+              <p>our contact</p>
+              <p>our address</p>
+              <p>our hours</p>
+              <p>
+                +380634503578
+                shkonka@gmail.com
+              </p>
+              <p>
+                Kharkov City, Ukraine14, Lopatyns`kyi Ln
+              </p>
+              <p>
+                Monday-Friday: 09.00-23.00Saturday-Sanday: 11.00-16.00
+              </p>
+              <p>© 2022 Smart-UI. All Rights Reserved</p>
+              <img src="" alt="">
+              <button>back to top</button>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
+<footer></footer>
