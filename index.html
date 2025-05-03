@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./style.css">
    
     <script src="index.js"></script>
   </head>
@@ -37,7 +37,7 @@
         </div>
         <div class="social-icons">
           <a href="https://wa.me/your_number" target="_blank" title="WhatsApp">
-            <img src="./img/Union.svg" alt="">
+            <img src="./img/Union.svg" alt="WhatsApp">
           </a>
           <a href="https://t.me/your_channel" target="_blank" title="Telegram">
             <img src="./img/telergam.svg" alt="Telegram" />
@@ -48,19 +48,19 @@
 
     <section class="main" id="hero">
       <div class="container">
-      <div class="side-button">return message</div>
+      <button class="side-button">return message</button>
       <div class="text-content">
         <h1 class="Header">We are</h1>
         <h1 class="Header">
           <span>SMART-UI</span><span class="highlight-dot">.</span>
         </h1>
-        <p>You deserve easy IT, to make it easy make it SMART 👋</p>
+        <p class="min-text">You deserve easy IT, to make it easy make it SMART 👋</p>
         <div
           style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap"
         >
           <button class="btn">Get Started</button>
           <div class="logos">
-            <picture>
+            <picture class="pct">
               <source
                 media="(min-width: 1280px)"
                 srcset="./img/hotel/img-1.avif 1x, ./img/hotel/img-1-2x.avif 2x"
@@ -101,7 +101,7 @@
                 alt="room photo"
               />
             </picture>
-            <picture>
+            <picture class="pct">
               <source
                 media="(min-width: 1280px)"
                 srcset="./img/hotel/img-1.avif 1x, ./img/hotel/img-1-2x.avif 2x"
@@ -142,7 +142,7 @@
                 alt="room photo"
               />
             </picture>
-            <picture>
+            <picture class="pct">
               <source
                 media="(min-width: 1280px)"
                 srcset="./img/hotel/img-1.avif 1x, ./img/hotel/img-1-2x.avif 2x"
@@ -432,7 +432,7 @@
         </div>
       </div>
     </section>
-    <section class="our-team">
+    <section class="our-team" id="team">
       <div class="conteiner">
         <h2>Meet Our Team</h2>
         <p>Expert Team Member</p>
@@ -731,7 +731,7 @@
         </div>
       </div>
     </section>
-    <section class="recent-works">
+    <section class="recent-works" id="works">
       <div class="conteiner">
         <h2>Recent Works</h2>
         <p>We will help to develop your best project based on your idea.</p>
