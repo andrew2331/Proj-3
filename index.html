@@ -14,44 +14,48 @@
   </head>
   <body>
 
-    <header>
-      <div class="logo">smart-ui</div>
-      <div class="alink">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SMART-UI</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">smart-ui</div>
+            <div class="menu-container">
+                <div class="box">
+                    <div class="burger">
+                      <span></span>
+                    </div>
 
-        <div class="menu-toggle" onclick="toggleMenu()">
-        </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#team">Our team</a></li>
+                        <li><a href="#works">Portfolio</a></li>
+                    </ul>
+                                <div class="language-switcher">
+                <a href="#" class="lang">UA</a> | 
+                <a href="#" class="lang active">EN</a>
+            </div>
 
-        <nav class="navbar">
-          <div class="navbar-menu">
-            <a href="#hero" class="active">Home</a>
-            <a href="#team">Our team</a>
-            <a href="#works">Portfolio</a>
-          </div>
-        </nav>
-      </div>
-
-      <div class="language-social">
-        <div class="languages">
-          <a href="#" class="lang">UA</a> |
-          <a href="#" class="lang active">EN</a>
-        </div>
-        <div class="social-icons">
-          <a href="https://wa.me/your_number" target="_blank" title="WhatsApp">
-            <img src="./img/Union.svg" alt="WhatsApp">
-          </a>
-          <a href="https://t.me/your_channel" target="_blank" title="Telegram">
-            <img src="./img/telergam.svg" alt="Telegram" />
-          </a>
-        </div>
-      </div>
-    </header>
+                </nav>
+            </div>
+    
+        </header>
+    </body>
+    </html>
 
     <section class="main" id="hero">
+     <button class="side-button">
+        <span class="side-button-text">return message</span>
+              </button>
       <div class="container">
-      <button class="side-button">return message</button>
       <div class="text-content">
         <h1 class="Header">We are</h1>
-        <h1 class="Header">
+        <h1 class="Header2">
           <span>SMART-UI</span><span class="highlight-dot">.</span>
         </h1>
         <p class="min-text">You deserve easy IT, to make it easy make it SMART 👋</p>
@@ -59,6 +63,8 @@
           style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap"
         >
           <button class="btn">Get Started</button>
+        </div>
+        <div class="photo-wraper">
           <div class="logos">
             <picture class="pct">
               <source
@@ -184,6 +190,7 @@
               />
             </picture>
           </div>
+
         </div>
       </div>
       <div class="illustration">
@@ -238,7 +245,8 @@
           <textarea placeholder="Напишите сообщение..."></textarea>
         </div>
         
-        <img
+        <div class="wraper-scroll">
+          <img
           src="./img/scroll-horitontal 1.svg"
           alt="Scroll Icon"
           class="scroll-icon"
@@ -247,7 +255,8 @@
       </div>
       </div>
       </div>
-     
+        </div>
+
     </section>
     <section class="what-we-do" id="services">
       <div class="container">

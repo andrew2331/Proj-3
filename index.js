@@ -1,4 +1,4 @@
-function toggleChat() {
-    const chat = document.getElementById('chatWindow');
-    chat.style.display = chat.style.display === 'block' ? 'none' : 'block';
-  }
+Document.querySelector('.burger').addEventListener('click' , function() {
+this.classList.toggle('active');
+documentquerySelector('.main-nav').classList.toggle('open');
+})
